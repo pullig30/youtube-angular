@@ -1,0 +1,6 @@
+<div>
+    <div class="search-bar">
+      <input type="text" id="filterText" class="search-bar" [(ngModel)]="filter" (input)="filterChanged($event)" (keyup.enter)="search($event)"/>
+    </div>
+</div>
+

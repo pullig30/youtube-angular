@@ -1,0 +1,14 @@
+<div class="row video-group"> 
+    <div *ngIf="video" class="video-detail col-md-8">
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" [ngClass]="{'is-sticky': stick}" id='video-iframe' [src]='url | safe' (load)="onIframeLoad()"></iframe>
+        </div>
+        <div class="details">
+            <div><b>{{video.snippet.title}}</b></div>
+            <div>{{video.snippet.description}}</div>
+        </div>
+    </div>
+    <div *ngIf="relatedVideos" class="col-md-4">
+        <video-list [videos]="relatedVideos"></video-list>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": "dist\\angular-youtube",
+    "appService.defaultWebAppToDeploy": "/subscriptions/6525d23a-c069-4b00-bbbf-6c9e4d401cca/resourceGroups/youtubeangular/providers/Microsoft.Web/sites/youtubeangular"
+}

@@ -1,0 +1,5 @@
+<div *ngIf="videos">
+    <li *ngFor="let video of videos" (click)='SelectVideo(video)' class="list-group-item">
+        <video-list-item [video]="video"></video-list-item>
+    </li>
+</div>

@@ -1,0 +1,35 @@
+.video-detail .details {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    white-space: pre-wrap;
+  }
+
+.video-group {
+  margin-left: 0px !important;
+}
+
+.is-sticky {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  max-width: 480px;
+  max-height: 280px;
+  width: 480px;
+  height: 280px;
+  z-index: 1;
+  top: auto;
+  left: auto;
+}
+/*
+@media screen and (min-width: 1120px) {
+  .is-sticky {
+     transform: translateX(-80%);
+  }
+}
+@media screen and (min-width: 1300px) {
+  .is-sticky {
+     transform: translateX(-115%);
+  }
+}*/
